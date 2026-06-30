@@ -10,7 +10,6 @@ A Flask-based web application that uses a machine learning model to assess the l
 - [Project Structure](#project-structure)
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 
 ## Features
@@ -73,27 +72,11 @@ Loan-Defaulter-Prediction/
    ```bash
    python app.py
    ```
-   Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser to see the application in action.
-
 ## Usage
 
 - **Home Page:** Contains general information about the application.
 - **Prediction Form:** Navigate to the prediction page, enter the required customer details (e.g., age, dependents, monthly income, etc.), and click **"Calculate Risk"**.
 - **Result Display:** The application will display the prediction result (High Risk / Low Risk) based on your input.
-
-## Deployment
-
-This project is ready to be deployed to a cloud hosting platform such as [Render](https://render.com). For Render deployment, ensure you have:
-- A `requirements.txt` file with all dependencies.
-- Your Flask app exposed as `app` (e.g., using `gunicorn app:app`).
-
-For example, to deploy on Render:
-1. Push your project to GitHub.
-2. Log in to Render and click **New + > Web Service**.
-3. Connect your GitHub account, select the repository, and configure the build and start commands:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `gunicorn app:app`
-4. Click **Create Web Service** and wait for deployment.
 
 ## Contributing
 
