@@ -1,6 +1,5 @@
 # Loan-Defaulter-Prediction-System
 
-# Loan Defaulter Prediction
 
 A Flask-based web application that uses a machine learning model to assess the likelihood of a customer defaulting on a loan. Users provide key financial and credit-related inputs, and the app returns a real-time risk prediction (Low Risk / High Risk).
 
@@ -13,8 +12,6 @@ A Flask-based web application that uses a machine learning model to assess the l
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
